@@ -1,0 +1,2 @@
+[04-May-2025 20:19:06 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/hubcar65/singularis.hubcare.app.br/config.php:9) in /home1/hubcar65/singularis.hubcare.app.br/autenticar.php on line 15
+[04-May-2025 20:19:52 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/hubcar65/singularis.hubcare.app.br/config.php:9) in /home1/hubcar65/singularis.hubcare.app.br/autenticar.php on line 21
