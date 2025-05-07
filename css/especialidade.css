@@ -1,0 +1,154 @@
+/* Estilo Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.main-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #4a90e2, #50c3e7);
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Container Principal */
+.especialidade-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.especialidade-content {
+    flex: 2;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.especialidade-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.especialidade-content h2 {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.especialidade-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilo para a seção de profissionais */
+.equipe-container {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.equipe-container h3 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.equipe-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.equipe-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.equipe-card h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.equipe-card p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.equipe-card .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.equipe-card .social-icons a {
+    color: #4a90e2;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.equipe-card .social-icons a:hover {
+    color: #357ab8;
+}
+
+.equipe-card .btn {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.equipe-card .btn:hover {
+    background: #357ab8;
+}
+
+/* Responsividade */
+@media (max-width: 850px) {
+    .especialidade-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .especialidade-content {
+        flex: 1;
+    }
+
+    .equipe-container {
+        flex: 1;
+    }
+}

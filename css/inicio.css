@@ -1,0 +1,147 @@
+.banner {
+    padding: 25px 20px 15px 20px;
+}
+
+
+main {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.main-header, .main-header h1{
+    margin-bottom: 0;
+}
+
+.especialidades-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.especialidades-header a {
+    max-width: 20%;
+}
+
+.especialidades-header img {
+    max-width: 100%;
+}
+
+
+h1 {
+    color: var(--azul);
+    padding-top: 25px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2, h3 {
+    color: var(--azul);
+}
+
+
+
+/* equipe */
+.main-equipe {
+    max-width: 90vw;
+    width: 100%;
+    text-align: center;
+}
+
+.equipe-card .social-icons {
+    margin: 10px 0;
+}
+
+.equipe-card .social-icons a, .equipe-card p{
+    color: var(--azul);
+}
+
+
+
+/* RESPONSIVIDADE EQUIPE*/
+@media (max-width: 850px) {
+    .equipe-card {
+        max-width: 150px;
+    }
+
+    .equipe-card {
+        font-size: 13px;
+    }
+
+    .equipe-card .btn {
+        padding: 6px 8px;
+    }
+
+}
+
+
+
+@media (max-width: 590px) {
+    .main-header h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+.about-container {
+    max-width: 100%;
+    padding: 20px 0;
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Alinha verticalmente o texto e a imagem */
+    justify-content: space-between; /* Garante espaçamento uniforme entre texto e imagem */
+}
+
+.about-container img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Garante que a imagem não distorça */
+}
+
+.about-content {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center; /* Centraliza o texto verticalmente */
+    min-width: 250px;
+}
+
+.about-content h2, .about-content h3, .about-content p {
+    margin: 0; /* Remove margens extras que podem estar causando deslocamento */
+}
+
+@media (max-width: 850px) {
+    .about-container {
+        flex-direction: column; /* Empilha texto e imagem verticalmente */
+        align-items: center; /* Centraliza os itens no centro */
+        gap: 20px;
+    }
+
+    .about-container img {
+        max-width: 80%; /* Reduz o tamanho da imagem em telas menores */
+    }
+
+    .about-content {
+        max-width: 100%;
+        text-align: center; /* Centraliza o texto em telas pequenas */
+    }
+}
+
+@media (max-width: 590px) {
+    .about-container img {
+        display: none; /* Esconde a imagem para telas muito pequenas */
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+}

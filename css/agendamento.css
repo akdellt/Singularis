@@ -1,0 +1,183 @@
+/* Geral */
+.agenda-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.agenda-selector {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.agenda-selector input,
+select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--cinza-claro);
+    transition: border 0.3s;
+}
+
+select {
+    cursor: pointer;
+}
+
+#horarios {
+    margin-top: 20px;
+}
+
+#horarios h3 {
+    color: var(--azul);
+    text-align: center;
+}
+
+#btn-horarios {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.horario-btn {
+    width: 70px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: var(--rosa);
+    color: var(--amarelo);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.horario-btn:hover {
+    background-color: var(--rosa-claro);
+}
+
+#datepicker,
+#selector {
+    color: var(--azul);
+}
+
+/* Equipe Selector */
+.equipe-selector {
+    display: none;
+    max-width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.equipe-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipe-card {
+    width: 45%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.equipe-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.equipe-card h3 {
+    font-size: 14px;
+    color: var(--azul);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.equipe-card p {
+    font-size: 12px;
+    color: var(--cinza);
+    margin-bottom: 10px;
+}
+
+/* Hover Effect */
+.equipe-card:hover {
+    transform: scale(1.05); /* Zoom no card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    border: 2px solid var(--rosa); /* Destaque da borda */
+} 
+
+
+.equipe-card:hover img {
+    transform: scale(1.1); /* Zoom na imagem */ 
+}
+
+/* Destaque do Profissional Selecionado */
+.btn-active {
+    border: 2px solid var(--rosa-claro); /* Borda de destaque */
+    background: linear-gradient(135deg, var(--rosa-claro), var(--rosa)); /* Fundo gradiente */
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    transform: scale(1.08); /* Zoom maior */
+}
+
+.btn-active h3{
+    color: #fff; /* Texto branco no card selecionado */
+}
+.btn-active h2{
+    color: #fff; /* Texto branco no card selecionado */
+}
+.btn-active h1{
+    color: #fff; /* Texto branco no card selecionado */
+}
+.btn-active p {
+    color: #fff; /* Texto branco no card selecionado */
+}
+
+/* Responsividade */
+@media (max-width: 850px) {
+    .equipe-card {
+        width: 100%; /* Cards ocupam toda a largura em telas menores */
+    }
+}
+
+@media (max-width: 590px) {
+    .agenda-selector {
+        width: 100%;
+    }
+
+    .agenda-container {
+        flex-direction: column;
+    }
+
+    .equipe-selector {
+        max-width: 100%;
+        padding: 15px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0;
+    }
+
+    .equipe-container {
+        justify-content: space-evenly;
+    }
+
+    .equipe-card {
+        max-width: 30%;
+    }
+
+}

@@ -1,0 +1,143 @@
+.login-container {
+    width: 100%;
+    max-width: 700px;
+    margin:auto;
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.registration-form {
+    background-color: var(--branco);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    color: var(--cinza-escuro);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--azul-petroleo);
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--cinza-claro);
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--azul-destaque);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--azul-petroleo);
+}
+
+.login-submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-btn, .submit-btn {
+    background-color: var(--rosa-claro);
+    color: var(--amarelo);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.submit-btn{
+    text-decoration: none;
+}
+
+.login-btn.active {
+    opacity: 1;
+    background-color: var(--rosa);
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    background-color: #ffe0e0;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+  
+
+@media (max-width: 590px) {
+    .login-container {
+        padding: 30px 20px;
+    }
+
+    .registration-form {
+        padding: 25px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        color: var(--rosa);
+    }
+}
