@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Psicologia",
+        "imagem": "psicologia-banner.png",
+        "texto1": "A psicologia infantil aplicada a crianças neurodivergentes tem como objetivo promover o desenvolvimento global, respeitando as especificidades neurológicas e cognitivas de cada indivíduo. Condições como Transtorno do Espectro Autista (TEA), Transtorno do Déficit de Atenção e Hiperatividade (TDAH), dislexia, entre outras, demandam abordagens especializadas que considerem diferenças nos processos de comunicação, regulação emocional, funções executivas e interação social. A intervenção precoce e estruturada é fundamental para potencializar habilidades, minimizar barreiras e favorecer a inclusão social e acadêmica.",
+        "texto2": "As metodologias utilizadas incluem técnicas baseadas na análise do comportamento aplicada (ABA), terapia cognitivo-comportamental adaptada (TCC), integração sensorial, programas de habilidades sociais e ludoterapia estruturada. A prática clínica é orientada por avaliações individualizadas, definição de metas terapêuticas específicas e aplicação de estratégias baseadas em evidências. O trabalho também envolve orientação parental e treinamento de cuidadores, visando à generalização das habilidades adquiridas e ao fortalecimento do ambiente de apoio à criança. Todo o processo é conduzido com foco na funcionalidade, autonomia e qualidade de vida."
+    },
+    {
+        "nome": "Terapia Ocupacional",
+        "imagem": "ocupacional-banner.png",
+        "texto1": "A terapia ocupacional infantil é uma prática fundamental no atendimento a crianças neurodivergentes, visando promover a independência, a participação social e o desenvolvimento de habilidades funcionais no dia a dia. A atuação do terapeuta ocupacional concentra-se na avaliação e intervenção em áreas como motricidade fina e grossa, integração sensorial, autonomia nas atividades de vida diária (AVDs) e habilidades sociais. O objetivo é reduzir barreiras que interfiram na participação plena da criança em contextos familiares, escolares e comunitários.",
+        "texto2": "As metodologias aplicadas incluem abordagens como a Integração Sensorial de Ayres, intervenções motoras baseadas em evidências, treino de atividades de autocuidado e uso de estratégias visuais e adaptativas. A prática terapêutica é sempre individualizada, respeitando o perfil sensorial, cognitivo e emocional da criança, com ênfase na construção de rotinas funcionais e no fortalecimento da autoestima. A atuação em conjunto com a família e outros profissionais da equipe multidisciplinar é essencial para garantir a continuidade dos ganhos terapêuticos em diferentes ambientes da vida da criança."
+    },
+    {
+        "nome": "Fonoaudiologia",
+        "imagem": "fonoaudiologia-banner.png",
+        "texto1": "A fonoaudiologia infantil voltada para crianças neurodivergentes tem como principal objetivo favorecer o desenvolvimento da comunicação oral, escrita e alternativa, além de trabalhar funções relacionadas à alimentação, respiração e audição. Crianças com condições como Transtorno do Espectro Autista (TEA), TDAH e transtornos de linguagem podem apresentar desafios em áreas como fala, linguagem receptiva e expressiva, pragmática da comunicação e processamento auditivo. A atuação fonoaudiológica é direcionada para maximizar as habilidades comunicativas e promover maior funcionalidade nas interações sociais e acadêmicas.",
+        "texto2": "As abordagens terapêuticas incluem intervenções baseadas na comunicação alternativa e aumentativa (CAA), estimulação da linguagem oral, terapia motora oral, treino de habilidades auditivas e atividades de aprimoramento da consciência fonológica. Cada plano de intervenção é individualizado, considerando o perfil neurocomportamental da criança, suas potencialidades e suas necessidades específicas de comunicação. O trabalho integrado com a equipe multidisciplinar da clínica potencializa os resultados e contribui para uma comunicação mais efetiva e uma melhor qualidade de vida da criança."
+    },
+    {
+        "nome": "Apoio Pedagógico",
+        "imagem": "pedagogico-banner.png",
+        "texto1": "O apoio pedagógico especializado para crianças neurodivergentes visa promover o desenvolvimento de habilidades acadêmicas, cognitivas e de organização escolar, respeitando o ritmo e o perfil de aprendizagem de cada aluno. Dificuldades de atenção, processamento de informações, habilidades de leitura, escrita e raciocínio lógico-matemático são frequentemente trabalhadas em um ambiente estruturado e adaptado, com o objetivo de reduzir barreiras educacionais e fortalecer a autonomia escolar.",
+        "texto2": "As estratégias utilizadas incluem o ensino estruturado, técnicas de reforço positivo, adaptações curriculares individualizadas, recursos visuais, uso de tecnologias assistivas e metodologias ativas de aprendizagem. A intervenção é personalizada, baseada em avaliações pedagógicas formais e informais, e planejada em articulação com a família e a escola para garantir a transferência dos ganhos para o contexto acadêmico. O foco principal é potencializar as habilidades da criança, promover autoestima e garantir seu pleno direito à educação e ao desenvolvimento."
+    }
+  ]
